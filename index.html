@@ -1,1 +1,383 @@
-My GitHub Page
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8" />
+        <title>Brief projektu</title>
+    </head>
+    <body>
+        <section class="about">
+            <h1>Co to Open Web? (Otwarta sieć)</h1>
+            <p>Ideą otwartasiec.pl jest promocja tzw. otwartych standardów sieciowych. O co chodzi? To łatwe! Jest to zbiór darmowych i ustandaryzowanych (działających wszędzie tak samo według zdefiniowanych algorytmów) technologii, dzięki którym budujemy współczesny internet. Zapewne słyszałeś i wiele razy używałeś HTMLa, CSS3 czy JavaScriptu. Mówimy o nich nieprzypadkowo - od kilku lat przeżywają one niesamowity rozkwit - są obecne w przeglądarkach, na serwerach, urządzeniach mobilnych i telewizorach. Uważamy, że rozwinęły się do tego stopnia, że powinieneś usłyszeć o ich niesamowitych możliwościach! Fantastyczne gry działające w przeglądarce, serwery pocztowe, edytory graficzne, zaawansowane systemy CMSowe, interaktywne strony internetowe, użyteczne i nowoczesne aplikacje dotykowe, i wiele innych - już dzisiaj możesz je stworzyć poznając tylko trzy nieskomplikowane technologie.</p>
+        </section>
+        <section class="css3">
+            <h1>CSS3</h1>
+            <p>Pamiętasz czasy, gdy do prostych animacji musiałeś uczyć się JavaScriptu lub podpinać bardzo ociężałe biblioteki, jak np. jQuery lub Prototype? A może kojarzysz żmudne wycinanie różnych wzorów i gradientów, by zrobić tło dla jakiegoś elementu strony? Zaokrąglone rogi? Tak, tak, mnóstwo trików dla różnych przeglądarek i kłębek nerwów. Zapomnij o tym, dziś CSS3 zapiera dech w piersiach i pozwala Ci czerpać radość z kodu. Oto, co może dzisiaj CSS3:</p>
+            <!-- tutaj lista kilku najważniejszych zmian, dzięki którym nie trzeba już męczyć się z workaroundami. Listing na zasadzie: CSS3 feature - zdanie co się robiło do tej pory - snippet - przykład - linki -->
+            <ul>
+                <li>CSS gradients</li>
+                <li>Border radius</li>
+                <li>Border image</li>
+                <li>Box shadow</li>
+                <li>Text shadow</li>
+                <li>Font-face</li>
+                <li>Selectors</li>
+                <li>CSS transitions</li>
+                <li>CSS transforms</li>
+                <li>Multi-column layout</li>
+            </ul>
+
+            <h2>CSS gradients</h2>
+            <p>Gradienty - tak popularne za czasów osławionego Web 2.0 sprawiały problemy głównie z powodu trudności w ich szybkiej modyfikacji. Developerzy byli zmuszeni do wycinania grafik i umieszczania ich w tłach elementów oraz pilnowania, czy aby na pewno grafika powtarza się w odpowiedni sposób. Na szczęście, dzięki CSS3 możemy z łatwością definiować gradienty za pomocą kilku linijek kodu, co znacznie przyspiesza pracę i ułatwia dokonywanie zmian w kodzie.</p>
+
+            <ul>
+                <li>Użyteczne linki</li>
+                <li><a href="http://www.w3.org/TR/2011/WD-css3-images-20110217/#gradients">Dokumentacja W3C</a></li>
+                <li><a href="http://www.colorzilla.com/gradient-editor/">Generator Gradientów (ColorZilla)</a></li>
+                <li><a href="http://css-tricks.com/css3-gradients/">CSS3 Gradients (Chris Coyer)</a></li>
+                <li><a href="https://github.com/bluesmoon/pngtocss/">PNG to CSS - konwerter tworzący gradienty na podstawie obrazków</a></li>
+            </ul>
+
+            <h2>Border radius</h2>
+            <p>Pamiętasz Web 2.0? Więc pewnie wiesz co to rounded corners. Często używane w projektach graficznych zaokrąglone rogi bywały prawdziwym problemem dla developerów, którzy zdani byli na technikę <a href="http://www.alistapart.com/articles/slidingdoors/">sliding doors</a>. Na szczęście teraz jesteśmy w stanie osiągnąć ten efekt bez użycia jakichkolwiek grafik dzięki border radius.</p>
+
+            <ul>
+                <li>Użyteczne linki</li>
+                <li><a href="http://www.w3.org/TR/css3-background/#corners">Dokumentacja W3C</a></li>
+                <li><a href="http://border-radius.com/">Generator border radius</a></li>
+            </ul>
+
+            <h2>Border image</h2>
+            <p>Zapewne wielokrotnie myślałeś o tym aby ustawić ramkę dla elementu z własną grafiką. Właściwość border-image pozwala Ci użyć dowolnego pliku, pociąć go w odpowiednich proporcjach i dopasować poszczególne wycinki do ram wybranego elementu. </p>
+
+            <ul>
+                <li>Użyteczne linki</li>
+                <li><a href="http://www.w3.org/TR/css3-background/#border-images">Dokumentacja W3C</a></li>
+                <li><a href="http://border-image.com/">Generator border image</a></li>  
+                <li><a href="http://css-tricks.com/understanding-border-image/">Understanding border image (Chris Coyer)</a></li>
+            </ul>
+
+            <h2>Box shadow</h2>
+            <p>Kolejnym problemem, na który mógł się naciąć każdy front-end developer były wszelkiego typu cienie, zarówno na zewnątrz jak i wewnątrz elementów. Podobnie jak border-radius dzięki tej właściwości nie musimy polegać na grafikach. Możemy ustawiać cienie zarówno po lewej czy prawej stronie elementu jak i na górze czy na dole. Dodatkowo określamy stopień rozmycia cienia a także jego zasięg.</p>
+
+            <ul>
+                <li>Użyteczne linki</li>
+                <li><a href="http://www.w3.org/TR/css3-background/#the-box-shadow">Dokumentacja W3C</a></li>
+                <li><a href="http://www.zurb.com/playground/css-boxshadow-experiments">Box Shadow Experiments (Zurb Playground)</a></li>
+                <li><a href="http://viget.com/uploads/file/boxshadows/">39 box shadows, no good reason</a></li>
+            </ul>
+
+            <h2>Font-face</h2>
+            <p>Przez długi czas byliśmy ograniczeni do używania tych samych zestawów czcionek - reguła @font-face pozwala nam na użycie <strong>dowolnej</strong> czcionki poprzez podanie lokacji pliku. W zasadzie tą samą funkcjonalność oferują nam serwisy typu <a href="https://typekit.com/">TypeKit</a> lub <a href="http://www.google.com/webfonts">Google Fonts</a> - poprzez załączenie pliku JavaScript i kilku linijek CSS możemy śmiało korzystać z oferowanych bibliotek czcionek.</p>
+
+            <ul>
+                <li>Użyteczne linki</li>
+                <li><a href="http://www.w3.org/TR/css3-fonts/#font-face-rule">Dokumentacja W3C</a></li>
+                <li><a href="http://www.font-face.com/">Font-Face</a></li>
+                <li><a href="http://hacks.mozilla.org/2009/06/beautiful-fonts-with-font-face/">Beautiful Fonts with Font Face (Mozilla)</a></li>
+                <li><a href="http://www.fontsquirrel.com/fontface/generator">Generator @font-face</a></li>
+                <li><a href="http://www.fontsquirrel.com/fontface">Gotowe @font-face kits do pobrania</a></li>
+                <li><a href="http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/">Bulletproof Font Face Implementation Syntax (Paul Irish)</a></li>
+                <li><a href="http://www.slideshare.net/jaffathecake/in-your-fontface">Prezentacja Jake'a Archibalda na temat @font-face</a></li>
+            </ul>
+
+            <h2>Selectors</h2>
+
+            <ul>
+                <li>Użyteczne linki</li>
+                <li><a href="http://www.w3.org/TR/selectors/">Dokumentacja W3C</a></li>
+                <li><a href="http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/">CSS3 Selectors Explained (456 Berea St)</a></li>
+                <li><a href="http://www.netmagazine.com/tutorials/discover-power-css3-selectors">Discover the Power of CSS3 Selectors (.net Magazine)</a></li>
+                <li><a href="http://coding.smashingmagazine.com/2011/03/30/how-to-use-css3-pseudo-classes/">How to Use CSS3 Pseudo Classes (Smashing Magazine)</a></li>
+                <li><a href="http://selectivizr.com/">Selectivizr - biblioteka pozwalająca na używanie selektorów w IE6-8</a></li>
+            </ul>
+
+            <h2>CSS Transitions</h2>
+
+            <ul>
+                <li><a href="http://www.w3.org/TR/css3-transitions/">Dokumentacja W3C</a></li>
+                <li><a href="https://developer.mozilla.org/en/CSS/CSS_transitions">CSS Transitions (Mozilla Developer Network)</a></li>
+                <li><a href="http://www.alistapart.com/articles/understanding-css3-transitions/">Understanding CSS3 Transitions (Dan Cenderholm)</a></li>
+                <li><a href="http://leaverou.github.com/animatable/">Animatable - galeria z przykładami przejść</a></li>
+                <li><a href="http://animatable.com/">Animatable - narzędzie do tworzenia przejść dla aplikacji desktopowych i moblinych</a></li>
+                <li><a href="http://ferrante.pl/frontend/vademecum/css3-transitions/">CSS3 Transitions (PL, Damian Wielgosik)</a></li>
+            </ul>
+
+            <h2>CSS Transforms</h2>
+
+            <ul>
+                <li>Użyteczne linki</li>
+                <li><a href="http://www.w3.org/TR/css3-2d-transforms/">Dokumentacja W3C na temat transformacji 2D</a></li>
+                <li><a href="http://www.w3.org/TR/css3-3d-transforms/">Dokumentacja W3C na temat transformacji 3D</a></li>
+                <li><a href="http://coding.smashingmagazine.com/2012/01/06/adventures-in-the-third-dimension-css-3-d-transforms/">Adventures In The Third Dimension: CSS 3D Transforms (Smashing Magazine)</a></li>
+                <li><a href="http://24ways.org/2010/intro-to-css-3d-transforms">An Introduction to CSS 3-D Transforms (24 ways)</a></li>
+                <li><a href="http://www.html5rocks.com/en/tutorials/3d/css/">3D and CSS (HTML5Rocks)</a></li>
+            </ul>
+
+            <h2>Multi-column layout</h2>
+
+            <ul>
+                <li>Użyteczne linki</li>
+                <li><a href="http://www.w3.org/TR/css3-multicol/">Dokumentacja W3C</a></li>
+                <li><a href="http://www.alistapart.com/articles/css3multicolumn/">Introducing the CSS3 Multi-Column Module (Cedric Savarese)</a></li>
+                <li><a href="http://dev.opera.com/articles/view/css3-multi-column-layout/">CSS3 Multi-column layout (Opera)</a></li>
+                <li><a href="http://www.456bereastreet.com/archive/200509/css3_multicolumn_layout_considered_harmful/">CSS3 Multi-column layout considered harmful (456 Berea St)</a></li>
+                <li><a href="https://developer.mozilla.org/en/CSS3_Columns">Using CSS multi-column layouts (Mozilla Developer Network)</a></li>
+            </ul>
+        </section>
+        <!-- / css3 -->
+
+        <section class="future-css">
+            <h1>Przyszłość CSS</h1>
+            <p></p>
+            <!-- / tak samo jak w CSS3. Listing: CSS feature - zdanie co się robiło do tej pory - snippet - przykład - linki (w większości do draftów W3C) -->
+            <ul>
+                <li>Variables</li>
+                <li>Mixins</li>
+                <li>Flexible Box Model</li>
+                <li>Regions, Exclusions, Shapes</li>
+                <li>Shaders</li>
+                <li>Grid</li>
+            </ul>
+        </section>
+        <!-- / future of css -->
+
+        <section class="html5">
+            <h1>HTML5</h1>
+			<!-- Opis HTML5, co przynosi itp oraz może krótka historia samego html-a -->
+			
+			<h3>Nowe atrybuty</h3>
+			<ul>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#contenteditable">contenteditable</a></li>
+				<!-- <li>contextmenu</li> -->
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#the-draggable-attribute">draggable</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#the-dropzone-attribute">dropzone</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#the-hidden-attribute">hidden</a></li>
+				<!-- <li>spellcheck</li> -->
+			</ul>
+			
+			<p>Atrybuty formularzy</p>
+			<ul>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-autocomplete-attribute">autocomplete</a></li>
+				<!-- <li>novalidate</li> -->
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/association-of-controls-and-forms.html#autofocusing-a-form-control">autofocus</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-list-attribute">list</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-multiple-attribute">multiple</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-min-and-max-attributes">min i max</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-pattern-attribute">pattern</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-placeholder-attribute">placeholder</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-required-attribute">required</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-step-attribute">step</a></li>
+			</ul>
+			
+			<h3>Nowe elementy wprowadzone do specyfikacji HTML 5</h3>
+			<p>Sections</p>
+			<ul>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/sections.html#the-section-element">section</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/sections.html#the-nav-element">nav</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/sections.html#the-article-element">article</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/sections.html#the-aside-element">aside</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/sections.html#the-hgroup-element">hgroup</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/sections.html#the-header-element">header</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/sections.html#the-footer-element">footer</a></li>
+			</ul>
+			
+			<p>Grouping content</p>
+			<ul>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/grouping-content.html#the-figure-element">figure</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/grouping-content.html#the-figcaption-element">figcaption</a></li>
+			</ul>
+			
+			<p>Text-level semantic</p>
+			<ul>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-bdi-element">bdi</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-time-element">time</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-mark-element">mark</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-ruby-element">ruby</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-rp-element">rp</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-rt-element">rt</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-wbr-element">wbr</a></li>
+			</ul>
+			
+			<p>Embedded content</p>
+			<ul>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#the-audio-element">audio</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#the-source-element">source</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#the-track-element">track</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#the-canvas-element">canvas</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-iframe-element.html#the-embed-element">embed</a></li>
+			</ul>
+			
+			<p>Interactive elements</p>
+			<ul>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#commands">command</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/interactive-elements.html#the-details-element">details</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/interactive-elements.html#the-summary-element">summary</a></li>
+			</ul>
+			
+			<p>Forms</p>
+			<ul>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-datalist-element">datalist</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-keygen-element">keygen</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-meter-element">meter</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-output-element">output</a></li>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-progress-element">progress</a></li>
+				<li>Nowe typy formularzy
+					<ul>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#telephone-state-(type=tel)">tel</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#url-state-(type=url)">url</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#e-mail-state-(type=email)">email</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#text-(type=text)-state-and-search-state-(type=search)">search</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#date-and-time-state-(type=datetime)">datetime</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#local-date-and-time-state-(type=datetime-local)">datetime-local</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#date-state-(type=date)">date</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#month-state-(type=month)">month</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#week-state-(type=week)">week</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#time-state-(type=time)">time</a></li>				
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#number-state-(type=number)">number</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#range-state-(type=range)">range</a></li>
+						<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#color-state-(type=color)">color</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+			<h3>Przydatne linki</h3>
+			<ul>
+				<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/scripting-1.html">specyfikacja whatwg</a></li>
+				<li><a href="http://html5doctor.com/">html5doctor.com</a></li>
+				<li><a href="http://www.html5rocks.com/en/">html5rocks</a></li>
+				<li><a href="http://diveintohtml5.info">Dive into HTML 5</a></li>
+			</ul>
+        </section>
+        <!-- / html5 -->
+
+        <section class="js">
+            <h1>JavaScript</h1>
+
+            <p>W ciągu ostatnich lat JavaScript błyskawicznie przebył długą drogę od prostego języka używanego np do walidacji
+                forumarzy czy manipulacji drzewem dokumentu ( DOM )
+                do poważnego, pełnoprawnego języka, którego można używać zarówno po stronie klienta jak i na serwerze.
+            </p>
+
+            <p>Aktualnie JavaScript to nie tylko rozbudowane apilacje webowe, ale także
+            gry w przeglądarce w użyciem elementów Canvas czy SVG, wykorzystanie komunkacji,
+            obsługa urządzeń dotykowych/mobilnych, aplikacje w systemach operacyjnych ( Windows 8 ),
+            wydajne rozwiązania po stronie serwera ( Node JS ) i wiele innych...
+            </p>
+
+            <h2>Co teraz możesz zrobic wykorzystując JavaScript?</h2>
+            <ul>
+                <li><a href="http://chrome.angrybirds.com/">Angry Birds</a></li>
+                <li><a href="http://www.cuttherope.ie/">Cut The Rope</a></li>
+                <li><a href="http://browserquest.mozilla.org/">Browser Quest</a></li>
+                <li><a href="http://js1k.com/2012-love/">js1k contest</a></li>
+                <li><a href="http://bellard.org/jslinux/">jslinux</a></li>
+                <li><a href="https://github.com/joyent/node/wiki/Projects,-Applications,-and-Companies-Using-Node">Projects, Applications, and Companies Using Node JS</a></li>
+                <li>...</li>
+            </ul>
+
+            <h2>Dobra znajomość JavaScriptu to przedewszystkim umiejętność pisania czystego kodu</h2>
+            <p>Podstawowe zagadnienia:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/pl/Przewodnik_po_j%C4%99zyku_JavaScript_1.5">Podstawowe informacje nt języka, składni, konstrukcji itd.</a></li>
+                <li><a href="http://helion.pl/ksiazki/javascript-mocne-strony-douglas-crockford,jscmoc.htm">JavaScript: The Good Parts</a></li>
+                <li><a href="http://www.youtube.com/watch?v=hQVTIJBZook">Prezentacja - JavaScript: The Good Parts (ang) </a></li>
+                <li>...</li>
+            </ul>
+
+            <p>Design patterns:</p>
+            <ul>
+                <li><a href="http://jsdesignpatterns.com/"> Pro JavaScript Design Patterns  (ang)</a></li>
+                <li><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/"> Essential JavaScript Design Patterns  (ang)</a></li>
+                <li><a href="http://helion.pl/ksiazki/javascript-wzorce-stoyan-stefanov,jascwz.htm"> JavaScript. Wzorce </a></li>
+                <li>...</li>
+            </ul>
+
+            <p>Community resources:</p>
+            <ul>
+                <li><a href="http://www.facebook.com/groups/217169631654737/">JS News:)</a></li>
+                <li><a href="http://dailyjs.com/">DailyJS: A JavaScript Blog</a></li>
+                <li><a href="http://javascriptweekly.com/">JavaScript Weekly: A Free, Weekly JavaScript Email Newsletter</a></li>
+                <li>...</li>
+            </ul>
+
+            <p>Nowe funkcje:</p>
+            <ul>
+                <li>ES5 - co nowego</li>
+                <li>Audio i wideo</li>
+                <li>Aplikacje offline (appcache)</li>
+                <li>Canvas</li>
+                <li>Geolokacja</li>
+                <li>Przchowywanie danych (local storage, session storage)</li>
+                <li>Touch events</li>
+                <li>WebSockets</li>
+            </ul>
+
+            <p>Serverside JavaScript:</p>
+            <ul>
+                <li><a href="http://nodejs.org/">Node JS</a></li>
+                <li>...</li>
+            </ul>
+
+            <p>Przyszłość JavaScript:</p>
+            <ul>
+                <li>ES6</li>
+                <li>...</li>
+            </ul>
+
+        </section>
+        <!-- / js -->
+
+        <section class="community">
+            <h1>Community</h1>
+        </section>
+        <!-- / community -->
+
+        <section class="badges">
+            <h1>Badges</h1>
+        </section>
+        <!-- / badges -->
+
+        <section class="platform">
+            <h1>Platform</h1>
+        </section>
+        <!-- / platform -->
+
+        <section class="tools">
+            <h1>Tools</h1>
+            <p>Rozwój w oparciu o Open Web to nie tylko szereg standardów i interfejsów programistycznych. W skład zestawu każdego dobrego programisty (developera?) wchodzi zwykle szereg narzędzi, które pozwalają przyspieszyć jak i uporządkować pracę nad projektem. Narzędzia takie są niezbędne przy dużych projektach, ale pozwalają także na znaczne przyspieszenie pracy przy mniejszych aplikacjach. Od tego w jakim stopniu opanujesz dane narzędzie będzie często zależeć wydajność Twojej pracy. Poświęć wiec nieco energii by dobrać odpowiedni ich zestaw, dzięki któremu Twoja praca zyska na szybkości jak i jakości.</p>
+
+            <p>Będąc w zgodzie z ideą Otwartej Sieci nie narzucamy Ci żadnych rozwiązań czy poszczególnych narzędzi. Każdy z nas zawsze dobiera je tak, by były zgodne z indywidualnymi preferencjami. Pragniemy jedynie zaznaczyć, że niektóre z nich zdobyły szerokie uznanie wśród społeczności, a więc prawdopodobnie zasługują także na Twoją uwagę.</p>
+
+            <p>Należy rownież pamiętać, że technologie webowe rozwijają się z dnia na dzień. Poszczególni producenci przeglądarek prześciagają się w implementacji nowych funkcjonalności. Skutkiem tego mogą być problemy z kompatybilnością twojego kodu pomiędzy przeglądarkami (i ich wersjami). Społeczność skupiona wokół front-endu jest jednak bardzo aktywna i stworzyła szereg narzędzi ułatwiających prace nad przenośnym kodem (Compass, Can I use, Modernizr).
+            </p>
+
+            <p>Bycie dobrym programistą Open Webu to nie tylko znajomość standardów i języków programowania. To także znajomość dobrych praktyk w danej dziedzinie. Tworząc kolejne projekty zauważysz, że duża część Twojego kodu HTML i CSS powtarza się (zwróć uwagę na HTML5Boilerplate i Bootstrap). Jeśli struktura Twoich plików CSS zaczyna być trudna w utrzymaniu, a kod zaczyna przypominać senne koszmary, może powinieneś sprawdzić czy projekt Sass, lub metodyki takie jak OOCSS lub BEM nie rozwiązałby części z Twoich problemów.</p>
+
+            <ul>
+                <li>Użyteczne linki</li>
+                <li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a></li>
+                <li><a href="http://twitter.github.com/bootstrap/">Bootstrap</a></li>
+                <li><a href="http://sass-lang.com/">SASS</a></li>
+                <li><a href="http://compass-style.org/">Compass</a></li>
+                <li><a href="http://jsperf.com/">JsPerf</a></li>
+                <li><a href="http://www.sublimetext.com/">Sublime Text</a></li>
+                <li><a href="http://code.google.com/p/zen-coding/">Zen Coding</a></li>
+                <li><a href="http://caniuse.com/">Can I use</a></li>
+                <li><a href="http://html5please.com/">HTML 5 Please</a></li>
+                <li><a href="http://modernizr.com/">Modernizr</a></li>
+                <li><a href="http://developer.yahoo.com/performance/rules.html">Yahoo - Best Practices for Speeding Up Your Web Site</a></li>
+                <li><a href="http://developer.yahoo.com/yslow/">YSlow</a></li>
+                <li><a href="http://oocss.org/">OOCSS</a></li>
+                <li><a href="http://bem.github.com/bem-method/pages/beginning/beginning.en.html">BEM</a></li>
+            </ul>
+
+        </section>
+        <!-- / tools -->
+
+        <section class="authors">
+            <h1>Autorzy</h1>
+        </section>
+        <!-- / authors -->
+
+    </body>
+</html>
