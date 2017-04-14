@@ -1,3 +1,7 @@
+**Ten projekt już nie działa!**
+
+Oto stare README:
+
 1. Dlaczego otwartasiec.pl
 
 Nie ma w polskim internecie jednego miejsca, w którym znalazłyby się rzetelne i inspirujące informacje dotyczące najnowszych technologii webowych - HTML5, CSS i JavaScriptu. Po wpisaniu w Google fraz CSS, HTML czy JavaScript dostajemy głównie niezaktualizowane i nieatrakcyjne kursy tych języków. Młody adept web dev nie ma pojęcia, jak fajne rzeczy można zrobić przy pomocy powyższego trio. Nie wie też, że jego możliwości są na tyle duże (API HTML5, canvas, WebGL, node, mobile), że z powodzeniem może skupić się na rozwoju osobistym w ich obszarze. Nie rozumie zagrożeń czyhających na standardy sieciowe, a także ich znaczenia w ogólności.
